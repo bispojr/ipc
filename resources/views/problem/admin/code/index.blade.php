@@ -15,7 +15,7 @@
             </li>
             <li>
                 <a href="{{ URL::to('/admin/username/problem')}}">
-                    Problem
+                    Problemas
                 </a>
             </li>
             <li class="active">
@@ -33,10 +33,13 @@
                     <div class="panel panel-default">
                         <div class="panel-body">
                             <div style="font-size: 2em;">
-                                Fulano de Tal da Silva <br>
+                                <b>[Q27]</b> Quem descobriu o Brasil?
                             </div>
-                            <b>Matrícula:</b> 98989898 <br>                             
-                            <b>Email:</b> fulano@gmail.com
+                            <b style="background-color: green; color: white; padding: 0.2em;">(a)</b> Cabral <br>
+                            <b>(b)</b> Cabrel <br>
+                            <b>(c)</b> Cabril <br>
+                            <b>(d)</b> Cabrol <br>
+                            <b>(e)</b> Cabrul <br>
                         </div>
                     </div>
                     <div class="text-right">
