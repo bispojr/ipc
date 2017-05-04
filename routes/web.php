@@ -11,6 +11,19 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', "HomeController@index");
+
+Route::get('/login/student', "LoginController@student");
+Route::get('/login/student/error', "LoginController@studentError");
+Route::get('/login/admin', "LoginController@admin");
+Route::get('/login/admin/error', "LoginController@adminError");
+
+Route::get('/admin/username', "AdminController@index");
+
+Route::get('/admin/username/student', "StudentController@adminIndex");
+Route::get('/admin/username/student/create', "StudentController@adminCreate");
+Route::get('/admin/username/student/username', "StudentController@adminUsername");
+Route::get('/admin/username/student/username/edit', "StudentController@adminUsernameEdit");
+Route::get('/admin/username/student/username/delete', "StudentController@adminUsernameDelete");
+
+Route::get('/admin/username/question', "QuestionController@index");
