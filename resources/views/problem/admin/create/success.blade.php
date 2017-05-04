@@ -14,12 +14,12 @@
                 </a>
             </li>
             <li>
-                <a href="{{ URL::to('/admin/username/student')}}">
-                    Alunos
+                <a href="{{ URL::to('/admin/username/problem')}}">
+                    Problemas
                 </a>
             </li>
             <li>
-                <a href="{{ URL::to('/admin/username/student/create')}}">
+                <a href="{{ URL::to('/admin/username/problem/create')}}">
                     Criar
                 </a>
             </li>
@@ -35,11 +35,11 @@
                     Sucesso
                 </div>
                 <div class="panel-body">
-                    Criação de aluno realizada com sucesso!
+                    Criação de problema realizada com sucesso!
                 </div>
             </div>
             <div class="text-right">
-                <a class="btn btn-success" href="{{ URL::to('/admin/username/student')}}">
+                <a class="btn btn-success" href="{{ URL::to('/admin/username/problem')}}">
                     OK
                 </a>
             </div>            

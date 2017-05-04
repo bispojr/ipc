@@ -57,15 +57,15 @@
                             <td>Quem descobriu o Brasil?</td>
                             <td>
                                 <a class="btn btn-primary btn-xs" 
-                                   href="{{ URL::to("/admin/username/problem/id") }}">
+                                   href="{{ URL::to("/admin/username/problem/code") }}">
                                     <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
                                 </a>
                                 <a class="btn btn-info btn-xs"
-                                   href="{{ URL::to("/admin/username/problem/id/edit") }}">
+                                   href="{{ URL::to("/admin/username/problem/code/edit") }}">
                                     <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
                                 </a>
                                 <a class="btn btn-danger btn-xs"
-                                   href="{{ URL::to("/admin/username/problem/id/delete") }}">
+                                   href="{{ URL::to("/admin/username/problem/code/delete") }}">
                                     <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
                                 </a>
                             </td>

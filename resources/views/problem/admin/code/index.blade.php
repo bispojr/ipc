@@ -14,17 +14,17 @@
                 </a>
             </li>
             <li>
-                <a href="{{ URL::to('/admin/username/student')}}">
-                    Alunos
+                <a href="{{ URL::to('/admin/username/problem')}}">
+                    Problem
                 </a>
             </li>
             <li class="active">
-                Fulano
+                Q27
             </li>
         </ol>
         <div class="col-md-7">
             
-            <h1>Dados do Aluno</h1>            
+            <h1>Dados do Problema</h1>            
             
             <div class="row" style="margin-top: 1em;">
                 <div class="col-md-2"></div>
@@ -40,13 +40,13 @@
                         </div>
                     </div>
                     <div class="text-right">
-                        <a class="btn btn-success" href="{{ URL::to("/admin/username/student") }}">OK</a>
+                        <a class="btn btn-success" href="{{ URL::to("/admin/username/problem") }}">OK</a>
                         <a class="btn btn-info"
-                           href="{{ URL::to("/admin/username/student/username/edit") }}">
+                           href="{{ URL::to("/admin/username/problem/code/edit") }}">
                             <span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
                         </a>
                         <a class="btn btn-danger"
-                           href="{{ URL::to("/admin/username/student/username/delete") }}">
+                           href="{{ URL::to("/admin/username/problem/code/delete") }}">
                             <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
                         </a>
                     </div>

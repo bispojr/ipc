@@ -16,35 +16,35 @@ class ProblemController extends Controller
         $data = Problem::data("adminIndex");
         return view('problem.admin.index', $data);
     }
-    public function adminID()
+    public function adminCode()
     {
-        $data = Problem::data("adminID");
-        return view('problem.admin.id.index', $data);
+        $data = Problem::data("adminCode");
+        return view('problem.admin.code.index', $data);
     }
-    public function adminIDEdit()
+    public function adminCodeEdit()
     {
-        $data = Problem::data("adminIDEdit");
-        return view('problem.admin.id.edit.index', $data);
+        $data = Problem::data("adminCodeEdit");
+        return view('problem.admin.code.edit.index', $data);
     }
-    public function adminIDEditSuccess()
+    public function adminCodeEditSuccess()
     {
-        $data = Problem::data("adminIDEditSuccess");
-        return view('problem.admin.id.edit.success', $data);
+        $data = Problem::data("adminCodeEditSuccess");
+        return view('problem.admin.code.edit.success', $data);
     }
-    public function adminIDEditError()
+    public function adminCodeEditError()
     {
-        $data = Problem::data("adminIDEditError");
-        return view('problem.admin.id.edit.error', $data);
+        $data = Problem::data("adminCodeEditError");
+        return view('problem.admin.code.edit.error', $data);
     }
-    public function adminIDDelete()
+    public function adminCodeDelete()
     {
-        $data = Problem::data("adminIDDelete");
-        return view('problem.admin.id.delete.index', $data);
+        $data = Problem::data("adminCodeDelete");
+        return view('problem.admin.code.delete.index', $data);
     }
-    public function adminIDDeleteSuccess()
+    public function adminCodeDeleteSuccess()
     {
-        $data = Problem::data("adminIDDeleteSuccess");
-        return view('problem.admin.id.delete.success', $data);
+        $data = Problem::data("adminCodeDeleteSuccess");
+        return view('problem.admin.code.delete.success', $data);
     }
     public function adminCreate()
     {

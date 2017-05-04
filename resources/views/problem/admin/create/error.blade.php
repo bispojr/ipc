@@ -14,12 +14,12 @@
                 </a>
             </li>
             <li>
-                <a href="{{ URL::to('/admin/username/student')}}">
-                    Alunos
+                <a href="{{ URL::to('/admin/username/problem')}}">
+                    Problemas
                 </a>
             </li>
             <li>
-                <a href="{{ URL::to('/admin/username/student/create')}}">
+                <a href="{{ URL::to('/admin/username/problem/create')}}">
                     Criar
                 </a>
             </li>
@@ -35,17 +35,16 @@
                     Erro!
                 </div>
                 <div class="panel-body">
-                    Erro na criação do aluno!                    
+                    Erro na criação do problema!                    
                 </div>
                 <div class="panel-footer">
                     <b>Possibilidades:</b><br>
                     - Algum campo vazio; <br>
-                    - Matrícula já existente; <br>
-                    - Email já existente. <br>
+                    - Código já existente. <br>
                 </div>
             </div>
             <div class="text-right">
-                <a class="btn btn-primary" href="{{ URL::to('/admin/username/student/create')}}">
+                <a class="btn btn-primary" href="{{ URL::to('/admin/username/problem/create')}}">
                     Tentar novamente
                 </a>
             </div>            

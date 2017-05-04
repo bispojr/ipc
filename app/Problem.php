@@ -11,18 +11,18 @@ class Problem extends Model
         switch($method){
             case "adminIndex":
                 return self::adminIndexData();
-            case "adminID":
-                return self::adminIDData();
-            case "adminIDEdit":
-                return self::adminIDEditData();
-            case "adminIDEditSuccess":
-                return self::adminIDEditSuccessData();
-            case "adminIDEditError":
-                return self::adminIDEditErrorData();
-            case "adminIDDelete":
-                return self::adminIDDeleteData();
-            case "adminIDDeleteSuccess":
-                return self::adminIDDeleteSuccessData();
+            case "adminCode":
+                return self::adminCodeData();
+            case "adminCodeEdit":
+                return self::adminCodeEditData();
+            case "adminCodeEditSuccess":
+                return self::adminCodeEditSuccessData();
+            case "adminCodeEditError":
+                return self::adminCodeEditErrorData();
+            case "adminCodeDelete":
+                return self::adminCodeDeleteData();
+            case "adminCodeDeleteSuccess":
+                return self::adminCodeDeleteSuccessData();
             case "adminCreate":
                 return self::adminCreateData();
             case "adminCreateSuccess":
@@ -38,37 +38,37 @@ class Problem extends Model
         
         return $data;
     }
-    public static function adminIDData()
+    public static function adminCodeData()
     {
         $data["title"] = "Dados do Problema";
         
         return $data;
     }
-    public static function adminIDEditData()
+    public static function adminCodeEditData()
     {
         $data["title"] = "Editar Problema";
         
         return $data;
     }
-    public static function adminIDEditSuccessData()
+    public static function adminCodeEditSuccessData()
     {
         $data["title"] = "Sucesso ao editar Problema";
         
         return $data;
     }
-    public static function adminIDEditErrorData()
+    public static function adminCodeEditErrorData()
     {
         $data["title"] = "Erro ao editar Problema";
         
         return $data;
     }
-    public static function adminIDDeleteData()
+    public static function adminCodeDeleteData()
     {
         $data["title"] = "Remover Problema";
         
         return $data;
     }
-    public static function adminIDDeleteSuccessData()
+    public static function adminCodeDeleteSuccessData()
     {
         $data["title"] = "Sucesso ao remover Problema";
         
