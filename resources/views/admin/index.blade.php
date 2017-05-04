@@ -21,7 +21,7 @@
                 >
                     <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Alunos
                 </a>
-                <a href="{{ URL::to('/admin/username/question')}}"
+                <a href="{{ URL::to('/admin/username/problem')}}"
                     class="btn btn-primary active" style="font-size: 2.5em; padding: 1em;">
                     <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Problemas
                 </a>

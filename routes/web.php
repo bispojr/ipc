@@ -31,4 +31,13 @@ Route::get('/admin/username/student/username/edit/error', "StudentController@adm
 Route::get('/admin/username/student/username/delete', "StudentController@adminUsernameDelete");
 Route::get('/admin/username/student/username/delete/success', "StudentController@adminUsernameDeleteSuccess");
 
-Route::get('/admin/username/question', "QuestionController@index");
+Route::get('/admin/username/problem', "ProblemController@adminIndex");
+Route::get('/admin/username/problem/create', "ProblemController@adminCreate");
+Route::get('/admin/username/problem/create/success', "ProblemController@adminCreateSuccess");
+Route::get('/admin/username/problem/create/error', "ProblemController@adminCreateError");
+Route::get('/admin/username/problem/id', "ProblemController@adminID");
+Route::get('/admin/username/problem/id/edit', "ProblemController@adminIDEdit");
+Route::get('/admin/username/problem/id/edit/success', "ProblemController@adminIDEditSuccess");
+Route::get('/admin/username/problem/id/edit/error', "ProblemController@adminIDEditError");
+Route::get('/admin/username/problem/id/delete', "ProblemController@adminIDDelete");
+Route::get('/admin/username/problem/id/delete/success', "ProblemController@adminIDDeleteSuccess");
