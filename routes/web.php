@@ -22,8 +22,13 @@ Route::get('/admin/username', "AdminController@index");
 
 Route::get('/admin/username/student', "StudentController@adminIndex");
 Route::get('/admin/username/student/create', "StudentController@adminCreate");
+Route::get('/admin/username/student/create/success', "StudentController@adminCreateSuccess");
+Route::get('/admin/username/student/create/error', "StudentController@adminCreateError");
 Route::get('/admin/username/student/username', "StudentController@adminUsername");
 Route::get('/admin/username/student/username/edit', "StudentController@adminUsernameEdit");
+Route::get('/admin/username/student/username/edit/success', "StudentController@adminUsernameEditSuccess");
+Route::get('/admin/username/student/username/edit/error', "StudentController@adminUsernameEditError");
 Route::get('/admin/username/student/username/delete', "StudentController@adminUsernameDelete");
+Route::get('/admin/username/student/username/delete/success', "StudentController@adminUsernameDeleteSuccess");
 
 Route::get('/admin/username/question', "QuestionController@index");

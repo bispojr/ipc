@@ -9,7 +9,7 @@
                 </a>
             </li>
             <li class="active">
-                Painel
+                Admin
             </li>
         </ol>
         <div class="col-md-7">
