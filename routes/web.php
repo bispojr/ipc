@@ -41,3 +41,14 @@ Route::get('/admin/username/problem/code/edit/success', "ProblemController@admin
 Route::get('/admin/username/problem/code/edit/error', "ProblemController@adminCodeEditError");
 Route::get('/admin/username/problem/code/delete', "ProblemController@adminCodeDelete");
 Route::get('/admin/username/problem/code/delete/success', "ProblemController@adminCodeDeleteSuccess");
+
+Route::get('/admin/username/lesson', "LessonController@adminIndex");
+Route::get('/admin/username/lesson/create', "LessonController@adminCreate");
+Route::get('/admin/username/lesson/create/success', "LessonController@adminCreateSuccess");
+Route::get('/admin/username/lesson/create/error', "LessonController@adminCreateError");
+Route::get('/admin/username/lesson/code', "LessonController@adminCode");
+Route::get('/admin/username/lesson/code/edit', "LessonController@adminCodeEdit");
+Route::get('/admin/username/lesson/code/edit/success', "LessonController@adminCodeEditSuccess");
+Route::get('/admin/username/lesson/code/edit/error', "LessonController@adminCodeEditError");
+Route::get('/admin/username/lesson/code/delete', "LessonController@adminCodeDelete");
+Route::get('/admin/username/lesson/code/delete/success', "LessonController@adminCodeDeleteSuccess");
