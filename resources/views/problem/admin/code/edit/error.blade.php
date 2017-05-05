@@ -14,17 +14,17 @@
                 </a>
             </li>
             <li>
-                <a href="{{ URL::to('/admin/username/student')}}">
-                    Alunos
+                <a href="{{ URL::to('/admin/username/problem')}}">
+                    Problemas
                 </a>
             </li>
             <li>
-                <a href="{{ URL::to('/admin/username/student/username')}}">
-                    Fulano
+                <a href="{{ URL::to('/admin/username/problem/code')}}">
+                    Q27
                 </a>
             </li>
             <li>
-                <a href="{{ URL::to('/admin/username/student/username/edit')}}">
+                <a href="{{ URL::to('/admin/username/problem/code/edit')}}">
                     Editar
                 </a>
             </li>
@@ -40,13 +40,12 @@
                     Erro!
                 </div>
                 <div class="panel-body">
-                    Erro na edição do aluno!                    
+                    Erro na edição do problema!                    
                 </div>
                 <div class="panel-footer">
                     <b>Possibilidades:</b><br>
                     - Algum campo vazio; <br>
-                    - Matrícula em conflito (com outro aluno); <br>
-                    - Email em conflito (com outro aluno). <br>
+                    - Código em conflito (com outro aluno). <br>
                 </div>
             </div>
             <div class="text-right">

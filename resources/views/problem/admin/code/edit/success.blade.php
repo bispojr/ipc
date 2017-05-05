@@ -14,17 +14,17 @@
                 </a>
             </li>
             <li>
-                <a href="{{ URL::to('/admin/username/student')}}">
-                    Alunos
+                <a href="{{ URL::to('/admin/username/problem')}}">
+                    Problemas
                 </a>
             </li>
             <li>
-                <a href="{{ URL::to('/admin/username/student/username')}}">
-                    Fulano
+                <a href="{{ URL::to('/admin/username/problem/code')}}">
+                    Q27
                 </a>
             </li>
             <li>
-                <a href="{{ URL::to('/admin/username/student/username/edit')}}">
+                <a href="{{ URL::to('/admin/username/problem/code/edit')}}">
                     Editar
                 </a>
             </li>
@@ -40,11 +40,11 @@
                     Sucesso
                 </div>
                 <div class="panel-body">
-                    Edição de aluno realizada com sucesso!
+                    Edição de problema realizada com sucesso!
                 </div>
             </div>
             <div class="text-right">
-                <a class="btn btn-success" href="{{ URL::to('/admin/username/student')}}">
+                <a class="btn btn-success" href="{{ URL::to('/admin/username/problem')}}">
                     OK
                 </a>
             </div>            
