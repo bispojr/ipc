@@ -14,13 +14,13 @@
                 </a>
             </li>
             <li>
-                <a href="{{ URL::to('/admin/username/student')}}">
-                    Alunos
+                <a href="{{ URL::to('/admin/username/problem')}}">
+                    Problemas
                 </a>
             </li>
-            <li class="active">
-                <a href="{{ URL::to('/admin/username/student/username')}}">
-                    Fulano
+            <li>
+                <a href="{{ URL::to('/admin/username/problem/code')}}">
+                    Q27
                 </a>
             </li>
             <li class="active">
@@ -29,7 +29,7 @@
         </ol>
         <div class="col-md-7">
             
-            <h1>Dados do Aluno</h1>            
+            <h1>Remover Problema</h1>            
             
             <div class="row" style="margin-top: 1em;">
                 <div class="col-md-2"></div>
@@ -37,22 +37,25 @@
                     
                     <div class="panel panel-danger">
                         <div class="panel-heading">
-                            Tem certeza que deseja remover este aluno?
+                            Tem certeza que deseja remover este problema?
                         </div>
                         <div class="panel-body">
                             <div style="font-size: 2em;">
-                                Fulano de Tal da Silva <br>
+                                <b>[Q27]</b> Quem descobriu o Brasil?
                             </div>
-                            <b>Matrícula:</b> 98989898 <br>                             
-                            <b>Email:</b> fulano@gmail.com
+                            <b style="background-color: green; color: white; padding: 0.2em;">(a)</b> Cabral <br>
+                            <b>(b)</b> Cabrel <br>
+                            <b>(c)</b> Cabril <br>
+                            <b>(d)</b> Cabrol <br>
+                            <b>(e)</b> Cabrul <br>
                         </div>
                     </div>
                     <div class="text-right">
                         <a class="btn btn-danger"
-                           href="{{ URL::to("/admin/username/student/username/delete/success") }}">
+                           href="{{ URL::to("/admin/username/problem/code/delete/success") }}">
                             <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> Remover
                         </a>
-                        <a class="btn btn-default" href="{{ URL::to("/admin/username/student/username") }}">Cancelar</a>
+                        <a class="btn btn-default" href="{{ URL::to("/admin/username/problem/code") }}">Cancelar</a>
                     </div>
                     
                 </div>

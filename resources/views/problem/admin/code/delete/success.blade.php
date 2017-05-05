@@ -14,17 +14,17 @@
                 </a>
             </li>
             <li>
-                <a href="{{ URL::to('/admin/username/student')}}">
-                    Alunos
+                <a href="{{ URL::to('/admin/username/problem')}}">
+                    Problemas
                 </a>
             </li>
             <li>
-                <a href="{{ URL::to('/admin/username/student/username')}}">
-                    Fulano
+                <a href="{{ URL::to('/admin/username/problem/code')}}">
+                    Q27
                 </a>
             </li>
             <li>
-                <a href="{{ URL::to('/admin/username/student/username/delete')}}">
+                <a href="{{ URL::to('/admin/username/problem/code/delete')}}">
                     Remover
                 </a>
             </li>
