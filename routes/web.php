@@ -52,3 +52,7 @@ Route::get('/admin/username/lesson/code/edit/success', "LessonController@adminCo
 Route::get('/admin/username/lesson/code/edit/error', "LessonController@adminCodeEditError");
 Route::get('/admin/username/lesson/code/delete', "LessonController@adminCodeDelete");
 Route::get('/admin/username/lesson/code/delete/success', "LessonController@adminCodeDeleteSuccess");
+
+Route::get('/admin/username/frequency', "FrequencyController@adminIndex");
+
+Route::get('/admin/username/course/{course}/section/{section}/frequency', "SectionController@frequency");

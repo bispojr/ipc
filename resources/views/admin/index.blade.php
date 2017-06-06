@@ -16,18 +16,10 @@
             
             <h1>Painel (Admin)</h1>
             <div class="row" style="margin-top: 1em;">
-                <a href="{{ URL::to('/admin/username/student')}}" 
+                <a href="{{ URL::to('/admin/username/frequency')}}" 
                    class="btn btn-primary active" style="font-size: 2.5em; padding: 1em;"
                 >
-                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Alunos
-                </a>
-                <a href="{{ URL::to('/admin/username/problem')}}"
-                    class="btn btn-primary active" style="font-size: 2.5em; padding: 1em;">
-                    <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span> Problemas
-                </a>
-                <a href="{{ URL::to('/admin/username/lesson')}}"
-                    class="btn btn-primary active" style="font-size: 2.5em; padding: 1em;">
-                    <span class="glyphicon glyphicon-book" aria-hidden="true"></span> Aulas
+                    <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Frequência
                 </a>
             </div>            
         </div>
